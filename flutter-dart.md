@@ -1,4 +1,8 @@
-## Dart
+
+# Dart
+
+## 변수와 타입
+
 ## 원시타입과 참조타입
 * JAVA 에서 데이터 타입은 **원시타입과 참조타입**으로 나뉘는데, Dart 는 모두 **참조타입**이다.
 
@@ -408,3 +412,4 @@ print(dic['a']); // 씨
 print(dic.keys.toList()); // 키를 전부다 출력
 print(dic.values.toList()); // value를 전부다 출력
 ```
+
