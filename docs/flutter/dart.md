@@ -1,5 +1,9 @@
-
-# Dart
+---
+layout: default
+title: Dart
+parent:flutter
+nav_order: 2
+---
 
 ## 원시타입과 참조타입
 * JAVA 에서 데이터 타입은 **원시타입과 참조타입**으로 나뉘는데, Dart 는 모두 **참조타입**이다.
