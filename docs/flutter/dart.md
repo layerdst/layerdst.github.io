@@ -141,7 +141,7 @@ Bicycle(this.cadence, this.speed, this.gear);
 - Bicycle 생성자 중 cadence 는 필수 요소, speed와 gear 는 선택적으로 오버라이딩 할 수 있는 생성자는 아래와 같다.
 - 생성자를 통한 인스턴스 생성시 클래스에 맞는 name parameter 를 이용하여 쉽게 생성이 가능하다.
   
-```Java
+```java
 Bicycle(this.cadence, {this.speed=0, this.gear=0});
 // cadence 필수 요소, speed, gear 는 선택요소
 Bicycle(1,speed:3);
@@ -240,10 +240,10 @@ class Samcheonlee extends Bicycle {
 - 위 클래스에서 부모와 자식 클래스중 speed는 같은 필드이다. 이를 this 로 생성하여 저장할때에는 자식의 클래스 필드가 우선순위를 갖게된다. (부모 객체의 speed 객체는 여전히 유효하다. 이는 super 를 활용하여 불러올수 있다.)
 
 ```java
-	Samcheonlee s = Samcheonlee("외발", 2, 3, 4);
-	s.outputString();
-		
-	// 외발 + 3 + 0
+Samcheonlee s = Samcheonlee("외발", 2, 3, 4);
+s.outputString();
+
+// 외발 + 3 + 0
 ```
 
 ## 인터페이스
@@ -367,7 +367,7 @@ print(tempList1.reversed); //(c,b,a)
 
 ### List 탐색
 
-```
+```java
 var item = memberList.firstWhere((item) =>item['id'] ==1 );
 var index = memberList.indexWhere((item)=>item['id']==1);
 print(index); //1
