@@ -36,6 +36,7 @@ speed = 20;
 speed = '속도'; 
 ```
 - Object 도 dynamic 과 마찬가지로 초기값과 무관하게 타입 변경을 할 수 있으나, Object 클래스에 있는 속성과 메서드만 사용이 가능하다.
+
 ```java
 dynamic name = 1000;
 name = "이름";
