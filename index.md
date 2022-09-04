@@ -1,3 +1,3 @@
 ## Welcome MyPage
 
-test
+github study 저장소
