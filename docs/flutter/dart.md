@@ -22,25 +22,28 @@ int? y = null // nullable
 ## 타입추론
 - Dart 에서는 Java 10 상위 버전에서 등장하는 **var, dynamic, Object  키워드로** 타입 추론이 가능하다. 때문에 명시적으로 타입을 선언하지 않아도 된다.
 - var 는 초기값이 있으면 변수 타입이 확정이  되고, 변경이 불가하다.
+ 
 ```java
 var speed = 10; 
 speed = 20;
 speed = '속도'; // 컴파일 에러
 ```
 - **다만 var 타입이 변수타입이 확정이 되지 않았을때** 에는 변경이 가능하다.
+ 
 ```java
 var speed; 
 speed = 20;
 speed = '속도';
 ```
 - dynamic 초기값과 무관하게 타입을 변경할 수 있다. Object 와 달리 모든 메서드와 속성을 가지고 있다.
+ 
 ```java
 dynamic speed = 10; 
 speed = 20;
 speed = '속도'; 
 ```
-- Object 도 dynamic 과 마찬가지로 초기값과 무관하게 타입 변경을 할 수 있으나, Object 클래스에 있는 속성과 메서드만 사용이 가능하다.
 
+- Object 도 dynamic 과 마찬가지로 초기값과 무관하게 타입 변경을 할 수 있으나, Object 클래스에 있는 속성과 메서드만 사용이 가능하다.
 ```java
 dynamic name = 1000;
 name = "이름";
@@ -50,20 +53,20 @@ Object objSpeed = 20;
 objSpeed = '속도';
 println(objSpeed.length) // 컴파일에러
 ```
-
 ## final, const
 - 변수 앞에 final 과 const 가 선언이 되면,  최초로 선언된 값이 최종값이 되어버린다. 즉 한번 선언이 되면 수정할 수 없다.
 - final 은 런타임 단계에서 값이 지정이되고, const는 컴파일 단계에서 값이 지정이 된다.
 
 ## null safety
 -  자바 8부터 Optional 이라는 Wrapper 클래스의 등장했다. null이 될 수 있는 객체를 감싸면서 NPE 를 회피할 수 있는 방법으로 떠오르고 있다.
+  
 ```java
 Optional<String> value = Optional.ofNullable(data);
 String name = value.orElse("none");
 
 //data 가 null 이면 비어있는 객체를 반환하는데, 기본값을 none 을 리턴하게 하였다.
-
 ```
+
 - Dart 에서는 변수 선언시 참조타입 뒤에 \"?\" 를 선언해주면 null safety를 바로 적용할 수 있다.
 ```java
 
@@ -71,15 +74,13 @@ nullSafety(int? v){
 	if(v==null){print("널이에요")}
 }
 
-
 main() {
 	int? nullableInt = null; 
 	nullSafety(nullableInt); //널이에요
 }
-
 ```
-- 이외에도 Dart 는 late, type promotion 등으로 체크가 가능하다. 해당 내용은 아래의 이 [블로그](https://medium.com/flutter-korea/flutter%EC%9D%98-null-safety-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-dd4ee1f7d6a5)를 참조한다.  
 
+- 이외에도 Dart 는 late, type promotion 등으로 체크가 가능하다. 해당 내용은 아래의 이 [블로그](https://medium.com/flutter-korea/flutter%EC%9D%98-null-safety-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-dd4ee1f7d6a5)를 참조한다.  
 
 ## 템플릿 리터럴(javascript)
 - Dart 는 자바스크립트에서의 템플릿 리터럴과 유사한 기능을 하는 문법이 있다.
@@ -88,7 +89,6 @@ main() {
 var a = "십";
 var b = "오";
 console.log(`Fifteen is ${a+b}`);
-
 
 - Dart
 var a = "십";
@@ -120,6 +120,7 @@ class Bicycle{
 
 Bicycle(this.cadence, this.speed, this.gear)
 ```
+
 - 생성자 기본형
 ```java
 Bicycle(int cadence, int speed, int gear)
@@ -127,10 +128,12 @@ Bicycle(int cadence, int speed, int gear)
 	this.speed = speed,
 	this.gear = gear;
 ```
+
 - 생성자 축약형
 ```java
 Bicycle(this.cadence, this.speed, this.gear);
 ```
+
 - 생성자 오버로딩
 	- named parameter, named constructor 를 활용한 유연한 인스턴스를 생성자를 통해 만들 수 있다. 이는 자바의 생성자 오버로딩과 비슷하다.
 	- Bicycle 생성자 중 cadence 는 필수 요소, speed와 gear 는 선택적으로 오버라이딩 할 수 있는 생성자는 아래와 같다.
@@ -166,8 +169,10 @@ Bicycle(this.cadence, this.speed, this.gear);
 		this.gear = input['gear'],
 		this.speed = input['speed'];
 	```
+	
 ### Getter 와 Setter
 - Java 에서는 필드(속성)변수들은 접근제한자와 관계없이 Getter 와 Setter 메소드를 임의르 만들어 사용할 수 있다.
+
 - Dart 에서는 private 로 선언된, 즉 변수 앞에 \_\ 가 붙여진 속성들에 한하여 Getter 와 Setter 메서드로의 접근을 허용한다.
 ```java
 class Car{
@@ -177,6 +182,7 @@ class Car{
 	set speed(int speed) => _speed = speed;
 }
 ```
+
 - getter  와 Setter 의 사용은 다음과 같다
 ```java
 Car car = Car();
@@ -218,6 +224,7 @@ class Samcheonlee extends Bicycle {
 	}
 }
 ```
+
 - 위 클래스에서 부모와 자식 클래스중 speed는 같은 필드이다. 이를 this 로 생성하여 저장할때에는 자식의 클래스 필드가 우선순위를 갖게된다. (부모 객체의 speed 객체는 여전히 유효하다. 이는 super 를 활용하여 불러올수 있다.)
 ```java
 	Samcheonlee s = Samcheonlee("외발", 2, 3, 4);
@@ -240,7 +247,6 @@ class SC implements V{
 	String? name;
 	greet() => print('hello ${this.name} SCV go sir');
 }
-
 ```
 
 ## Enum 타입
@@ -285,7 +291,6 @@ print(b is bool); // f
 print(b is! String); //t 
 ```
 
-
 ## List  선언(크기가 고정되지 않는 리스트)
 - Dart 의 리스트는 java의 DTO 데이터 타입이 정의되지 않더라도 선언이 가능하다. 
 - 리스트의 크기가 선언되지 않는 리스트(add, removeAt 관련 메소드 사용가능)
@@ -320,9 +325,7 @@ List memberList = [
 tempList1.add('g');
 tempList1.removeAt(1); // index 1인 값 제거
 tempList1.addAll(['e','e'])
-
 ```
-
 
 ## List 선언(크기가 고정된 리스트)
 - 리스트의 크기가 선언된 리스트 (add, remove 관련 메소드 사용불가), 저장된 데이터를 수정하기 위해서는 리스트 인덱스에 직접 선언하여 할당해주어야 한다.
@@ -402,6 +405,7 @@ Map<String, int> price={
 ```
 
 ## Map 메소드
+
 ```java
 dic2.addAll({
 	'c': '씨',
