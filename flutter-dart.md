@@ -41,7 +41,6 @@ dynamic name = 1000;
 name = "이름";
 println(name.length); // 2
 
-
 Object objSpeed = 20; 
 objSpeed = '속도';
 println(objSpeed.length) // 컴파일에러
