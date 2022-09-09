@@ -13,6 +13,7 @@ nav_order: 2
 ## main.dart
 - import 
 	- flutter/material.dart 는 플러터 프레임워크와 구글에서 제공하는 UI 와 관련된 material 이미지, 소스들을 모두 사용할 수 있게 한다.
+	
 	```java
 	import 'package:flutter/material.dart';
     ```
@@ -27,27 +28,26 @@ nav_order: 2
 	- Material 위젯에는 title 속성과, home 속성이 있다. 
 	- theme 는 optional 한 파라미터로 테마를 의미하고, 견본색상인 blue 테마를 사용하기 위해 입력한다. 
 	- Scaffold 는 화면의  UI 를 구성하는 위젯으로 AppBar 와 Center 라는 위젯으로 나뉘게 된다. 
-```java
-class MyApp extends StatelessWidget {
-	const MyApp({Key? key}) : super(key: key);
 	
-	@override
-	Widget build(BuildContext context) {
-		return MaterialApp(
-			title: 'welcome to Flutter',
-			theme:ThemeData(
-				primarySwatch : Colors.blue
-			)
-			home: Scaffold(
-				appBar: AppBar(
-					title: Text('Welcome to Flutter'),
+	```java
+	class MyApp extends StatelessWidget {
+		const MyApp({Key? key}) : super(key: key);
+
+		@override
+		Widget build(BuildContext context) {
+			return MaterialApp(
+				title: 'welcome to Flutter',
+				theme:ThemeData(
+					primarySwatch : Colors.blue
+				)
+				home: Scaffold(
+					appBar: AppBar(
+						title: Text('Welcome to Flutter'),
+					),
+
+					body: Center(child: Text('Hello world')),
 				),
-
-				body: Center(child: Text('Hello world')),
-			),
-		);
+			);
+		}
 	}
-}
-```
-
-![[Pasted image 20220905201332.png]]
+	```
