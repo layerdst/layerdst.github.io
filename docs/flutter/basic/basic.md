@@ -1,6 +1,6 @@
 ---
 layout: default
-title: basic
+title: 2_default_screen
 parent: basic
 grand_parent: flutter
 nav_order: 1
