@@ -3,7 +3,7 @@ layout: default
 title: 4_textAlign
 parent: basic
 grand_parent: flutter
-nav_order: 1
+nav_order: 4
 ---
 
 ## 문장을 가운데 정렬하기
