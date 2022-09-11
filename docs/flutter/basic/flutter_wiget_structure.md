@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 1_WigetStructure
+title: 위젯
 parent: basic
 grand_parent: flutter
 nav_order: 1
