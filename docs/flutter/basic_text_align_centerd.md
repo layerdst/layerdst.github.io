@@ -1,3 +1,10 @@
+---
+layout: default
+title: basic text align
+parent: flutter
+nav_order: 2
+---
+
 ## 문장을 가운데 정렬하기
 - AppBar 에 이름은 First App 으로 지정한다.
 - AppBar 와 body 사이의 음영을 없앤다. (elevation)
