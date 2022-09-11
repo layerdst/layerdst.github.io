@@ -2,7 +2,8 @@
 layout: default
 title: basic
 parent: basic
-nav_order: 3
+grand_parent: flutter
+nav_order: 1
 ---
 
 ## 기본 화면 구성
