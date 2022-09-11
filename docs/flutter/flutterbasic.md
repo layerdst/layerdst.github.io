@@ -5,7 +5,7 @@ parent: flutter
 nav_order: 2
 ---
 
-## main.dart
+## 기본 화면 구성
 - MyApp 
 	- StatelessWidget 을 상속받아 정적인 화면을 구성한다.
 	- MyApp 은 위젯의 최상단 트리에 위치하는 위젯이다.
@@ -40,5 +40,6 @@ nav_order: 2
 	}
 	```
 	
-	
-	<img src = "https://user-images.githubusercontent.com/71206860/189518375-84dbcc09-6c74-4bb5-870a-3bb388233ed8.png" width="300"/>
+	<div style="text-align:center";>
+		<img src = "https://user-images.githubusercontent.com/71206860/189518375-84dbcc09-6c74-4bb5-870a-3bb388233ed8.png" width="300"/>
+	</div>
