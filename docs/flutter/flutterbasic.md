@@ -5,22 +5,7 @@ parent: flutter
 nav_order: 2
 ---
 
-## Flutter 실행하기 ( VS Code)
-- 참고자료 : https://flutter-ko.dev/docs/get-started/test-drive?tab=vscode
-- 명령 팔레트 ⇧⌘P (Command + Up Arrow + P)
-- Flutter : New Project 선택
-
 ## main.dart
-- import 
-	- flutter/material.dart 는 플러터 프레임워크와 구글에서 제공하는 UI 와 관련된 material 이미지, 소스들을 모두 사용할 수 있게 한다.
-	
-	```java
-	import 'package:flutter/material.dart';
-    ```
-
-- main 메소드
-	- runApp() 에서 arguments 는 클래스로 받게 되는데, 최상단의 위젯인 MyApp() 을 사용하는게 일반적이다.
-
 - MyApp 
 	- StatelessWidget 을 상속받아 정적인 화면을 구성한다.
 	- MyApp 은 위젯의 최상단 트리에 위치하는 위젯이다.
