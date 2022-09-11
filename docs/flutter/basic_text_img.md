@@ -140,3 +140,4 @@ class Grade extends StatelessWidget {
 ```
 
 ## 결과 이미지
+<img src = "https://user-images.githubusercontent.com/71206860/189519753-89a1e156-242f-49bf-b22a-17dc82b9c0f7.png" width="300"/>
