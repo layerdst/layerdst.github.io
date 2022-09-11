@@ -14,7 +14,7 @@ nav_order: 2
 	- theme 는 optional 한 파라미터로 테마를 의미하고, 견본색상인 blue 테마를 사용하기 위해 입력한다. 
 	- Scaffold 는 화면의  UI 를 구성하는 위젯으로 AppBar 와 Center 라는 위젯으로 나뉘게 된다.
 
-	![image](https://user-images.githubusercontent.com/71206860/189518375-84dbcc09-6c74-4bb5-870a-3bb388233ed8.png)
+	
 
 	
 	```java
@@ -39,3 +39,6 @@ nav_order: 2
 		}
 	}
 	```
+	
+	
+	<img src = "https://user-images.githubusercontent.com/71206860/189518375-84dbcc09-6c74-4bb5-870a-3bb388233ed8.png" width="300"/>
