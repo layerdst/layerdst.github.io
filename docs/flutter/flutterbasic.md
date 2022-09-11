@@ -6,6 +6,9 @@ nav_order: 2
 ---
 
 ## 기본 화면 구성
+<div style="text-align:center";>
+		<img src = "https://user-images.githubusercontent.com/71206860/189518375-84dbcc09-6c74-4bb5-870a-3bb388233ed8.png" width="300"/>
+	</div>
 - MyApp 
 	- StatelessWidget 을 상속받아 정적인 화면을 구성한다.
 	- MyApp 은 위젯의 최상단 트리에 위치하는 위젯이다.
@@ -15,7 +18,7 @@ nav_order: 2
 	- Scaffold 는 화면의  UI 를 구성하는 위젯으로 AppBar 와 Center 라는 위젯으로 나뉘게 된다.
 
 	
-
+	
 	
 	```java
 	class MyApp extends StatelessWidget {
@@ -40,6 +43,4 @@ nav_order: 2
 	}
 	```
 	
-	<div style="text-align:center";>
-		<img src = "https://user-images.githubusercontent.com/71206860/189518375-84dbcc09-6c74-4bb5-870a-3bb388233ed8.png" width="300"/>
-	</div>
+	
