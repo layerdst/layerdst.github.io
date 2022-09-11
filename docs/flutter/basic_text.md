@@ -34,5 +34,5 @@ class MyHomePage extends StatelessWidget {
 ```
 
 ## 결과 이미지
-<img src="https://user-images.githubusercontent.com/71206860/189519028-12aacf96-de6b-4b26-8e08-1df0060beddb.png" width="200">
+<img src="https://user-images.githubusercontent.com/71206860/189519028-12aacf96-de6b-4b26-8e08-1df0060beddb.png" width="300">
 
