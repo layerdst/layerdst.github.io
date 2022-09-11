@@ -31,6 +31,8 @@ class MyHomePage extends StatelessWidget {
     );
   }
 }
-
-
 ```
+
+## 결과 이미지
+<img src="https://user-images.githubusercontent.com/71206860/189518978-bd720ba5-52b2-48d3-aeb9-950054780292.png" width="200">
+
