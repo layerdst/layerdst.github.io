@@ -1,6 +1,6 @@
 ---
 layout: default
-title: basic text img 
+title: 5_textImgIcon 
 parent: basic
 grand_parent: flutter
 nav_order: 1
