@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Wiget Structure
-parent: flutter
-nav_order: 2
+parent: basic
+grand_parent: flutter
+nav_order: 1
 ---
 
 ## 위젯
