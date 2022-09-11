@@ -1,3 +1,10 @@
+---
+layout: default
+title: basic text
+parent: flutter
+nav_order: 2
+---
+
 ## 텍스트 문장을 나열하기
 - AppBar 에 이름은 First App 으로 지정한다.
 - body 에 hello1, hello2, hello3 3 문장을 나열한다.
