@@ -1,7 +1,7 @@
 ---
 layout: default
 title: basic
-parent: flutter
+parent: basic
 nav_order: 2
 ---
 
