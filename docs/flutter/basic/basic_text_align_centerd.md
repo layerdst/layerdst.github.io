@@ -2,7 +2,8 @@
 layout: default
 title: basic text align
 parent: basic
-nav_order: 3
+grand_parent: flutter
+nav_order: 1
 ---
 
 ## 문장을 가운데 정렬하기
