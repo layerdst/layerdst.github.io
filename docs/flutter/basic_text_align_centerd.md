@@ -36,5 +36,6 @@ class MyCard extends StatelessWidget {
 }
 
 ```
+## 결과 이미지
 
 <img src = "https://user-images.githubusercontent.com/71206860/189519369-0f69b3d1-af6c-4d64-a533-a595479b76fc.png" width="200"/>
