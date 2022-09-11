@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 4_text_align
+title: 4_textAlign
 parent: basic
 grand_parent: flutter
 nav_order: 1
