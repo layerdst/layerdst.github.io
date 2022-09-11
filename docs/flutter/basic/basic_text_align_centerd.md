@@ -2,7 +2,7 @@
 layout: default
 title: basic text align
 parent: basic
-nav_order: 2
+nav_order: 3
 ---
 
 ## 문장을 가운데 정렬하기
