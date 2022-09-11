@@ -1,3 +1,10 @@
+---
+layout: default
+title: basic text img 
+parent: flutter
+nav_order: 2
+---
+
 ## 이미지와 텍스트 나열하기
 - AppBar 의 이름은 BBanTo 이다.
 - body 내 순서는 이미지, 작은 텍스트, 큰 텍스트, 작은 텍스트, 아이콘, 이미지 순으로 배치한다.
