@@ -3,7 +3,7 @@ layout: default
 title: 3_text
 parent: basic
 grand_parent: flutter
-nav_order: 1
+nav_order: 3
 ---
 
 ## 텍스트 문장을 나열하기
