@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 2_default_screen
+title: 기본 화면
 parent: basic
 grand_parent: flutter
 nav_order: 2
