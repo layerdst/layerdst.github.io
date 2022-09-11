@@ -12,7 +12,10 @@ nav_order: 2
 	- MyApp 하위 위젯에는 Material 이 있는데, 이를 리턴한다.
 	- Material 위젯에는 title 속성과, home 속성이 있다. 
 	- theme 는 optional 한 파라미터로 테마를 의미하고, 견본색상인 blue 테마를 사용하기 위해 입력한다. 
-	- Scaffold 는 화면의  UI 를 구성하는 위젯으로 AppBar 와 Center 라는 위젯으로 나뉘게 된다. 
+	- Scaffold 는 화면의  UI 를 구성하는 위젯으로 AppBar 와 Center 라는 위젯으로 나뉘게 된다.
+
+	![image](https://user-images.githubusercontent.com/71206860/189518375-84dbcc09-6c74-4bb5-870a-3bb388233ed8.png)
+
 	
 	```java
 	class MyApp extends StatelessWidget {
