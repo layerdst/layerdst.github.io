@@ -3,7 +3,7 @@ layout: default
 title: 2_default_screen
 parent: basic
 grand_parent: flutter
-nav_order: 1
+nav_order: 2
 ---
 
 ## 기본 화면 구성
