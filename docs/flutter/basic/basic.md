@@ -2,7 +2,7 @@
 layout: default
 title: basic
 parent: basic
-nav_order: 2
+nav_order: 3
 ---
 
 ## 기본 화면 구성
