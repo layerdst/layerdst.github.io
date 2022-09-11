@@ -4,7 +4,7 @@
 - body 에 hello1, hello2, hello3 3 문장을 나열한다.
 - 3문장을 수직 수평 가운데 정렬을 한다.
 - MerialApp 과 Scaffold 위젯을 사용한다.
-- 
+ 
 ```java
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
@@ -38,4 +38,4 @@ class MyCard extends StatelessWidget {
 ```
 ## 결과 이미지
 
-<img src = "https://user-images.githubusercontent.com/71206860/189519369-0f69b3d1-af6c-4d64-a533-a595479b76fc.png" width="200"/>
+<img src = "https://user-images.githubusercontent.com/71206860/189519369-0f69b3d1-af6c-4d64-a533-a595479b76fc.png" width="300"/>
