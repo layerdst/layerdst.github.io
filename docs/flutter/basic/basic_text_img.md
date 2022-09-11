@@ -2,7 +2,7 @@
 layout: default
 title: basic text img 
 parent: basic
-nav_order: 2
+nav_order: 3
 ---
 
 ## 이미지와 텍스트 나열하기
