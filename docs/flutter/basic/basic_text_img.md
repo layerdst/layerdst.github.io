@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 5_textImgIcon 
+title: 이미지와 텍스트 나열하기
 parent: basic
 grand_parent: flutter
 nav_order: 5
