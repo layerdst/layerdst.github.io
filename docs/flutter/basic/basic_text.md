@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 텍스트 나열하기
+title: 텍스트 나열
 parent: basic
 grand_parent: flutter
 nav_order: 3
