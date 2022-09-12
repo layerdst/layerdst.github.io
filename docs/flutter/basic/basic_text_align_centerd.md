@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 텍스트 
+title: 텍스트 가운데 정렬
 parent: basic
 grand_parent: flutter
 nav_order: 4
