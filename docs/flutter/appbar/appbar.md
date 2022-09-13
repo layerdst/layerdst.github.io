@@ -45,3 +45,7 @@ class MyPage extends StatelessWidget {
   }
 }
 ```
+
+## 결과 
+<img src = "https://user-images.githubusercontent.com/71206860/189909052-a21bd398-92a4-455e-bf40-d1202f3a9593.png" width="300"/>
+
