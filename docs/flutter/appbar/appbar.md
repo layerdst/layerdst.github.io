@@ -1,3 +1,12 @@
+---
+layout: default
+title: 기본 화면
+parent: menu
+grand_parent: flutter
+nav_order: 1
+---
+
+
 ## 앱바 아이콘 추가하기
 - 앱바 상단 왼쪽의 햄버거 IconButton 을 이용해 아이콘 추가하기
 - IconButton 은 icon 과 같이 onPressed 함수와 같이 사용되어야 함.
