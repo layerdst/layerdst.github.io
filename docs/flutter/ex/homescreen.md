@@ -45,5 +45,5 @@ class HomeScreen extends StatelessWidget{
 }
 ```
 
-<img src = "https://user-images.githubusercontent.com/71206860/190178950-6204492d-2ee3-4817-87be-2659aefc3fe6.png" width="300"/>
+<img src = "https://user-images.githubusercontent.com/71206860/190179479-dd023c71-70ba-46cd-9eaa-a8fee881c0f4.png" width="300"/>
 
