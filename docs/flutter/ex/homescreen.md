@@ -1,3 +1,12 @@
+---
+layout: default
+title: 홈화면 만들기
+parent: ex
+grand_parent: flutter
+nav_order: 1
+---
+
+
 ## 강의예제 원형 로딩바가 있는 홈화면 만들기
   - android studio 셋팅
   - 로고 이미지 추가(pubspec.yml 셋팅)
@@ -35,3 +44,6 @@ class HomeScreen extends StatelessWidget{
   }
 }
 ```
+
+<img src = "https://user-images.githubusercontent.com/71206860/190178950-6204492d-2ee3-4817-87be-2659aefc3fe6.png" width="300"/>
+
