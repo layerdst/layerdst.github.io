@@ -45,5 +45,6 @@ class HomeScreen extends StatelessWidget{
 }
 ```
 
+## 결과이미지
 <img src = "https://user-images.githubusercontent.com/71206860/190179479-dd023c71-70ba-46cd-9eaa-a8fee881c0f4.png" width="300"/>
 
