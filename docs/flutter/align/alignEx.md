@@ -8,6 +8,8 @@
 - 네번째줄 이미지는 가운데에 고정되어 있다.spaceEvenly 
 
 ## 구현할 이미지
+<img src = "https://user-images.githubusercontent.com/71206860/190420940-739d1cb9-ff36-435c-a3c0-49ab0ea49470.png" width = "300" />
+
 
 
 ## 첫번째 구현 - 각줄의 위아래 여백이 동일하지 않음
