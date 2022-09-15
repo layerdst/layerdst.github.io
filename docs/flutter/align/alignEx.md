@@ -1,3 +1,11 @@
+---
+layout: default
+title: 기본 화면
+parent: align
+grand_parent: flutter
+nav_order: 2
+---
+
 ## 정렬 속성을 사용하여 아래의 이미지를 구현
 - 해당 화면은 SafeArea 를 적용한다.
 - Column 과 Row 를 사용한다. 
