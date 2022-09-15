@@ -140,6 +140,7 @@ class HomeScreen extends StatelessWidget {
                 ],
               ),
               Row(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                 changeColorBrick("green"),
                 ]
