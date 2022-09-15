@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 기본 화면
+title: 정렬 속성
 parent: align
 grand_parent: flutter
 nav_order: 1
