@@ -103,6 +103,7 @@ class HomeScreen extends StatelessWidget {
     );
   }
 ```
+
 ## 첫번째 구현 이미지
 <img src = "https://user-images.githubusercontent.com/71206860/190420732-18233162-8ba5-40de-ad88-daf7398d6952.png" width="300"/>
 
