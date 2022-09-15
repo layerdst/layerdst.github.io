@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 정렬 
+title: 정렬 예제
 parent: align
 grand_parent: flutter
 nav_order: 2
