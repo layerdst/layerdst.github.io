@@ -1,3 +1,11 @@
+---
+layout: default
+title: 기본 화면
+parent: align
+grand_parent: flutter
+nav_order: 1
+---
+
 ## SafeArea
 - SafeArea 는 코딩으로 제작된 영역을 모바일 화면의 상단의 알림창, 시간 하단의 홈버튼 영역과 같은 시스템 영역의 경계를 조정할 수 있는 위젯이다.
 
