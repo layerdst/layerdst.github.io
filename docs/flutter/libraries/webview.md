@@ -5,7 +5,7 @@
 - 본 예제에서 쓰이는 라이브러리는 webview_flutter 로 범용성이 뛰어나며, [pub.dev](https://pub.dev/). 에서 살펴볼수 있다.
 - 라이브러리 선택기준은 like, pub point, popularity 도 있지만 MIT licence 도 고려해야한다.
 
-## flutter webview
+## 화면 구현하기 (Webview)
 - WebViewController 는 웹뷰의 필드 중 하나로서, 웹뷰가 생성되면 인스턴스를 생성해줘야 한다.
 - initialUrl 은 플랫폼에서의 첫 화면을 지정하는 것이다.
 - javascriptMode 은 웹페이지의 자바스크립트의 기능의 구현을 해제하거나 유지할 수 있다. 기본값은 disabled 이다.
@@ -45,3 +45,6 @@ class WebViewScreen extends StatelessWidget {
 ```
 
 ## 결과이미지
+<img src = "https://user-images.githubusercontent.com/71206860/190862672-c26f34af-1ff2-455a-95da-e06b5562f669.png" width = "300"/>
+
+        body: WebView(
