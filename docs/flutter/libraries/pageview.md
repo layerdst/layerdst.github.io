@@ -1,4 +1,11 @@
-## 페이지뷰를 활용한 
+---
+layout: default
+title: introductio_screen
+parent: libraries
+grand_parent: flutter
+nav_order: 2
+---
+
 
 ## introduction screen 를 활용하여 움직이는 페이지뷰 만들기
 - 해당 페이지는 앱/웹의 맨 처음 이용할때 사용되는 소개페이지와 유사한 형태이다.
