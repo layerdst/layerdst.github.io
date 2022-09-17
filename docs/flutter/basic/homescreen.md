@@ -3,7 +3,7 @@ layout: default
 title: 홈화면 만들기
 parent: basic
 grand_parent: flutter
-nav_order: 1
+nav_order: 6
 ---
 
 
