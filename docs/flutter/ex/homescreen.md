@@ -10,6 +10,7 @@ nav_order: 1
 ## 강의예제 원형 로딩바가 있는 홈화면 만들기
   - android studio 셋팅
   - 로고 이미지 추가(pubspec.yml 셋팅)
+  - 화면 오른쪽 상단 debug 제거 하기 (debugShowCheckedModeBanner 설정) 
   
 ```java
 import 'package:flutter/material.dart';
