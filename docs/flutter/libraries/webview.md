@@ -1,4 +1,11 @@
-## flutter webview 라이브러리를 활용하여 블로그 만들기
+---
+layout: default
+title: webview
+parent: libraries
+grand_parent: flutter
+nav_order: 1
+---
+
 
 ## WebView 에 대한 설명
 - 웹뷰는 만들고자 하는 플랫폼에 **웹페이지의 화면과 기능을 손쉽게 호출할 수 있는 라이브러리** 이다. 
@@ -46,5 +53,3 @@ class WebViewScreen extends StatelessWidget {
 
 ## 결과이미지
 <img src = "https://user-images.githubusercontent.com/71206860/190862672-c26f34af-1ff2-455a-95da-e06b5562f669.png" width = "300"/>
-
-        body: WebView(
