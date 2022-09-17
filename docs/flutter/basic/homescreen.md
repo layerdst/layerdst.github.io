@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 홈화면 만들기
-parent: ex
+parent: basic
 grand_parent: flutter
 nav_order: 1
 ---
