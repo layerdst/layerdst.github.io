@@ -115,3 +115,8 @@ class OnBoardingPage extends StatelessWidget {
 
 ```
 
+## 결과 이미지
+
+<img scr ="https://user-images.githubusercontent.com/71206860/190863973-f38aacdf-ce6e-4620-81d8-3ed440bb1bd2.png" />
+
+
