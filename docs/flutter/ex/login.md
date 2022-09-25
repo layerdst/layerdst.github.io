@@ -117,4 +117,4 @@ class _LogInState extends State<LogIn> {
 ```
 
 ## 결과이미지
-
+<img src = "https://user-images.githubusercontent.com/71206860/192154310-5a30ceba-c3db-477e-81cf-f4d856c89327.png" width = "300"/>
