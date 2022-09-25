@@ -1,3 +1,11 @@
+---
+layout: default
+title: LogIn
+parent: ex
+grand_parent: flutter
+nav_order: 1
+---
+
 ## 로그인 화면 구현하기
 - AppBar 상단 왼쪽 메뉴, 오른쪽 검색 아이콘 만들기
 - Body 에는 이미지와 Form 으로 구성되어있다.
