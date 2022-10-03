@@ -1,7 +1,10 @@
 
 
+### Stateful LifeCycle 구현해보기
 
 
+
+```java
 class LifeCycle extends StatefulWidget {
   const LifeCycle({Key? key}) : super(key: key);
 
@@ -85,3 +88,4 @@ class _LifeCycleBodyState extends State<LifeCycleBody> {
     return c != null ? (c==Colors.red ? Colors.blue : Colors.red) : Colors.blue;
   }
 }
+```
