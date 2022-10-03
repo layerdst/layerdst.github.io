@@ -5,6 +5,10 @@
 
 
 ```java
+
+
+import 'package:flutter/material.dart';
+
 class LifeCycle extends StatefulWidget {
   const LifeCycle({Key? key}) : super(key: key);
 
@@ -53,10 +57,9 @@ class _LifeCycleBodyState extends State<LifeCycleBody> {
     return ElevatedButton(
       onPressed: (){
         setState(() {
-          color == Colors.red ? cycleSquare(Colors.blue) : cycleSquare(Colors.red) ;
+          colors = changeColors(c : colors) ;
           print("state ${color}");
           print("clicked");
-          print(msg);
         });
       },
       child: Text(msg),
@@ -80,7 +83,6 @@ class _LifeCycleBodyState extends State<LifeCycleBody> {
         height: 50.0,
         color : color
     );
-    print("싸이클 + ${color}");
     return ex;
   }
 
