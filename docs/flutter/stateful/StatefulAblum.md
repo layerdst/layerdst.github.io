@@ -57,3 +57,6 @@ class _AlbumState extends State<Album> {
   }
 }
 ```
+
+<img src = "https://user-images.githubusercontent.com/71206860/194014946-125c1b69-2b72-46d8-bc52-7c0717bc3238.png" width="300"/>
+
