@@ -1,4 +1,12 @@
-## Stateful, PageView Wiget을 활용한 carousel 앨범 만들기 
+---
+layout: default
+title:  carousel 
+parent: stateful
+grand_parent: flutter
+nav_order: 2
+---
+
+## PageView Wiget을 활용한 carousel 앨범 만들기 
 
 
 ```java
