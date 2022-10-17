@@ -7,7 +7,7 @@ nav_order: 2
 ---
 
 
-## D-DAY 계산기 만들기 강의
+## D-DAY 계산기 만들기(강의 예제)
 - date 관련 dart api 이용하기
 - coupertino 라이브러리 이용하기
 - 프로젝트에 사용되는 textStyle 관리는 최상위인 main.dart -> themeData 의 설정을 통해 코드 최소화
