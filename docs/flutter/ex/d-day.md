@@ -1,3 +1,12 @@
+---
+layout: default
+title: D-day
+parent: ex
+grand_parent: flutter
+nav_order: 3
+---
+
+
 ## D-DAY 계산기 만들기 강의
 - date 관련 dart api 이용하기
 - coupertino 라이브러리 이용하기
