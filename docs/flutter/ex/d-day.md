@@ -3,6 +3,8 @@
 - coupertino 라이브러리 이용하기
 - 프로젝트에 사용되는 textStyle 관리는 최상위인 main.dart -> themeData 의 설정을 통해 코드 최소화
 
+## 
+
 ```java
 *** main dart ***
 void main() {
@@ -137,3 +139,8 @@ class _Now{
 }
 
 ```
+
+## 결과이미지
+
+<img src = "https://user-images.githubusercontent.com/71206860/196222353-cf0ae422-98fe-49a3-b307-48578783c46b.png" width="300"/>
+
