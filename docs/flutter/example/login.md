@@ -1,7 +1,7 @@
 ---
 layout: default
 title: LogIn
-parent: ex
+parent: example
 grand_parent: flutter
 nav_order: 1
 ---
