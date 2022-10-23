@@ -1,3 +1,12 @@
+---
+layout: default
+title: random number
+parent: example
+grand_parent: flutter
+nav_order: 5
+---
+
+
 ## 랜덤숫자 생성기
 - header, body, footer 세 영역을 디자인
 - body 부분의 숫자들은 버튼을 누를때마다 임의의 숫자들이 생성된다. 
