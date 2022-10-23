@@ -138,3 +138,5 @@ class _Footer extends StatelessWidget {
 ```
 
 ## 결과 
+<image src = "https://user-images.githubusercontent.com/71206860/197398103-5537cc73-c108-4b65-b561-0697308eb01f.png" width="300"/>
+
